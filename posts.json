@@ -1,0 +1,32 @@
+[
+  {
+    "image": "/images/ahri.jpg",
+    "title": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores exercitationem quisquam explicabo eaque nobis error quas distinctio. Omnis repellat sit delectus maxime. Incidunt, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores exercitationem quisquam explicabo eaque nobis error quas distinctio. Omnis repellat sit delectus maxime. Incidunt, ullam."
+  },
+  {
+    "image": "/images/ahri 3.jpg",
+    "title": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat"
+  },
+  {
+    "image": "/images/ahri.jpg",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisicing elit adipisicing elit"
+  },
+  {
+    "image": "/images/leoninha.jpg",
+    "title": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores exercitationem quisquam explicabo eaque nobis error quas distinctio. Omnis repellat sit delectus maxime. Incidunt, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores exercitationem quisquam explicabo eaque nobis error quas distinctio. Omnis repellat sit delectus maxime. Incidunt, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores exercitationem quisquam explicabo eaque nobis error quas distinctio. Omnis repellat sit delectus maxime. Incidunt, ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores exercitationem quisquam explicabo eaque nobis error quas distinctio. Omnis repellat sit delectus maxime. Incidunt, ullam."
+  },
+  {
+    "image": "/images/ahri 2.jpg",
+    "title": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat"
+  },
+  {
+    "image": "/images/jinx-arcane.jpg",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisicing elit adipisicing elit"
+  }
+]

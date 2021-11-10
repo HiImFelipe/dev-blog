@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { mainColors } from "../../constants/colors";
+import { width } from "../../constants/width";
 
 export const Container = styled.nav`
   color: white;
@@ -8,12 +9,12 @@ export const Container = styled.nav`
   flex: 1 0 28%;
   max-width: 33%;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: ${width.large}) {
     max-width: 50%;
     flex: 1 0 48%;
   }
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: ${width.medium}) {
     max-width: 100%;
   }
 `;

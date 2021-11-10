@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { mainColors } from "../constants/colors";
+import { width } from "../constants/width";
 
 export const MainContent = styled.main`
   background-color: ${mainColors.primary};
@@ -17,7 +18,7 @@ export const CardSection = styled.div`
   flex-wrap: wrap;
   flex-direction: row;
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: ${width.medium}) {
     flex-direction: column;
   }
 `;

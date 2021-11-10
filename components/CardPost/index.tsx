@@ -7,27 +7,34 @@ import {
   Container,
   Description,
   ImageContainer,
+  PostLink,
 } from "./styles";
 
-const CardPost = () => {
+interface IProps extends React.HTMLAttributes<HTMLDivElement> {
+  title: string;
+  description: string;
+  image: string;
+}
+
+const CardPost: React.FC<IProps> = ({ description, title, image }) => {
   return (
     <Container>
       <Card>
         <ImageContainer>
-          <Image
-            src="/images/ahri.jpg"
-            width={16}
-            height={9}
-            layout="responsive"
-          ></Image>
+          <Image src={image} width={16} height={9} layout="responsive"></Image>
         </ImageContainer>
 
-        <CardTitle>Lorem ipsum dolor sit amet.</CardTitle>
+        <CardTitle>{title}</CardTitle>
 
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-          dolores exercitationem quisquam explicabo eaque nobis error quas
-          distinctio. Omnis repellat sit delectus maxime. Incidunt, ullam.
+          {description.length >= 255 ? (
+            <div>
+              {description.substring(0, 255) + "... "}
+              <PostLink>Continue Reading</PostLink>
+            </div>
+          ) : (
+            description
+          )}
         </Description>
       </Card>
     </Container>

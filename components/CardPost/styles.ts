@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { mainColors } from "../../constants/colors";
 import { width } from "../../constants/width";
 
-export const Container = styled.nav`
+export const Container = styled.div`
   color: white;
-  min-height: 400px;
+  min-height: 500px;
   padding: 1rem;
   flex: 1 0 28%;
   max-width: 33%;
@@ -16,11 +16,13 @@ export const Container = styled.nav`
 
   @media screen and (max-width: ${width.medium}) {
     max-width: 100%;
+    min-height: auto;
   }
 `;
 
 export const Card = styled.div`
   background-color: ${mainColors.neutral};
+  height: 100%;
 `;
 
 export const ImageContainer = styled.div`
@@ -37,3 +39,8 @@ export const Description = styled.p`
   padding: 10px;
   margin: 0;
 `;
+
+export const PostLink = styled.span`
+  color: ${mainColors.link};
+  cursor: pointer;
+`

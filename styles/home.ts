@@ -13,6 +13,7 @@ export const MainContent = styled.main`
 export const Title = styled.h1`
   margin-top: 0;
 `;
+
 export const CardSection = styled.div`
   display: flex;
   flex-wrap: wrap;

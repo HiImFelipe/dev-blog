@@ -4,6 +4,7 @@ import CardPost from "../components/CardPost";
 
 import Navigation from "../components/Navigation";
 import { CardSection, MainContent, Title } from "../styles/home";
+import data from '../posts.json'
 
 const Home: NextPage = () => {
   return (
@@ -20,15 +21,9 @@ const Home: NextPage = () => {
         <Title>Latest Posts</Title>
 
         <CardSection>
-          <CardPost />
-
-          <CardPost />
-
-          <CardPost />
-
-          <CardPost />
-
-          <CardPost />
+          {data.map((item, index) => (
+            <CardPost key={index} title={item.title} description={item.description} image={item.image}/>
+          ))}
         </CardSection>
       </MainContent>
     </div>

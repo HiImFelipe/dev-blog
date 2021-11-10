@@ -4,4 +4,6 @@ export const mainColors = {
   neutral: "#9a8c98",
   lightContrast: "#c9ada7",
   highContrast: "#f2e9e4",
+
+  link: "#ade8f4",
 };

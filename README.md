@@ -1,5 +1,8 @@
 # Personal Dev Blog created with React (NextJS)
 
+![Blog Screenshot](https://media.discordapp.net/attachments/891214266668036126/907901876513701938/unknown.png?width=1242&height=650)
+<p align="right" style="font-style: italic">example image of the blog running</p>
+
 ## The Idea
 
 Companies tend to look for personal projects when you lack many years of experience or when they feel like trying to know you better, so a dev blog is a pretty standard idea to show off some of your skills as a developer.

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { mainColors } from "../constants/colors";
+import { mainColors } from "../../constants/colors";
 
 export const Container = styled.nav`
   background-color: ${mainColors.primary};

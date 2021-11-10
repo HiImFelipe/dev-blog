@@ -1,8 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import CardPost from "../components/CardPost";
 
 import Navigation from "../components/Navigation";
-import { MainContent } from "../styles/home";
+import { CardSection, MainContent, Title } from "../styles/home";
 
 const Home: NextPage = () => {
   return (
@@ -16,9 +17,19 @@ const Home: NextPage = () => {
       <Navigation />
 
       <MainContent>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quis,
-        fugit cum ad recusandae id vero reprehenderit laudantium error
-        blanditiis.
+        <Title>Latest Posts</Title>
+
+        <CardSection>
+          <CardPost />
+
+          <CardPost />
+
+          <CardPost />
+
+          <CardPost />
+
+          <CardPost />
+        </CardSection>
       </MainContent>
     </div>
   );

@@ -1,12 +1,18 @@
 # Personal Dev Blog created with React (NextJS)
 
-## The idea
+## The Idea
 
 Companies tend to look for personal projects when you lack many years of experience or when they feel like trying to know you better, so a dev blog is a pretty standard idea to show off some of your skills as a developer.
 
 This repository will contain only the **front end** code and responsabilities, I am not running a MVC-style project.
 
-## Running it locally
+## The Approach
+
+The project utilizes the **Next JS framework** to take advantage of **SEO**, built-in **security** and **usability** it brings to the table when compared to CRA (Create React App). It is also just faster due to it's **static page** nature.
+
+The page has been built with **desktop-first** in mind, but it is still responsible to work properly on mobile devices. As for how I do it: [Styled Components](https://styled-components.com/); pretty much [SASS](https://sass-lang.com/) but easier and more convenient.
+
+## Running It Locally
 
 ### 1- Requirements
 

@@ -1,4 +1,4 @@
-# Personal Dev Blog created with React
+# Personal Dev Blog created with React (NextJS)
 
 ## The idea
 

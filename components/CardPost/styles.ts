@@ -2,11 +2,24 @@ import styled from "styled-components";
 import { mainColors } from "../../constants/colors";
 
 export const Container = styled.nav`
-  background-color: ${mainColors.neutral};
   color: white;
   min-height: 400px;
-  margin: 1rem;
+  padding: 1rem;
   flex: 1 0 28%;
+  max-width: 33%;
+
+  @media screen and (max-width: 1024px) {
+    max-width: 50%;
+    flex: 1 0 48%;
+  }
+
+  @media screen and (max-width: 640px) {
+    max-width: 100%;
+  }
+`;
+
+export const Card = styled.div`
+  background-color: ${mainColors.neutral};
 `;
 
 export const ImageContainer = styled.div`
@@ -20,7 +33,6 @@ export const CardTitle = styled.h2`
 `;
 
 export const Description = styled.p`
-  overflow-wrap: break-word;
   padding: 10px;
   margin: 0;
 `;

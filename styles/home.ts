@@ -15,6 +15,9 @@ export const Title = styled.h1`
 export const CardSection = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   flex-direction: row;
+
+  @media screen and (max-width: 640px) {
+    flex-direction: column;
+  }
 `;

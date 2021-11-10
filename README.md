@@ -1,7 +1,10 @@
 # Personal Dev Blog created with React (NextJS)
 
 ![Blog Screenshot](https://media.discordapp.net/attachments/891214266668036126/907901876513701938/unknown.png?width=1242&height=650)
-<p align="right" style="font-style: italic">example image of the blog running</p>
+
+<p align="right">
+  <i>example image of the blog running</i>
+</p>
 
 ## The Idea
 
@@ -21,10 +24,10 @@ The page has been built with **desktop-first** in mind, but it is still responsi
 
 ### 1- Requirements
 
-- Make sure you have [Node.js](https://nodejs.org/en/) installed. 
+- Make sure you have [Node.js](https://nodejs.org/en/) installed.
 - Not a must, but it would be nice to have [Yarn](https://yarnpkg.com/) installed just for convenience
 
-If, for some reason, you still don't have those installed, it is recommended to use a **PACKAGE MANAGER** even if you are a Windows user, because if you wish to remove them later, the package manager (like Chocolatey, or the current built-in winget) will deal with the removal of dependencies and additional trash that can be left behind. 
+If, for some reason, you still don't have those installed, it is recommended to use a **PACKAGE MANAGER** even if you are a Windows user, because if you wish to remove them later, the package manager (like Chocolatey, or the current built-in winget) will deal with the removal of dependencies and additional trash that can be left behind.
 
 If you are a linux user, just use your distro's main package manager (apt, pacman, etc.)
 

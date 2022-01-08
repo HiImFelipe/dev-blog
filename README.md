@@ -1,6 +1,6 @@
 # Blog Website
 
-![Blog Screenshot](https://media.discordapp.net/attachments/891214266668036126/907901876513701938/unknown.png?width=1242&height=650)
+![Blog Screenshot](https://i.imgur.com/Yqj6Cvw.png)
 
 <p align="right">
   <i>example image of the blog running</i>
